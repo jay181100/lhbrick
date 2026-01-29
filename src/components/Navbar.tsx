@@ -19,7 +19,7 @@ const Navbar = () => {
       transition={{ duration: 0.6 }}
       className="fixed top-0 left-0 right-0 z-50 bg-hero/95 backdrop-blur-sm border-b border-white/10"
     >
-      <div className="container-custom section-padding py-4">
+      <div className="container-custom px-4 sm:px-6 lg:px-8 py-5 md:py-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
